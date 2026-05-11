@@ -1,7 +1,7 @@
 "use client";
-
 import React from "react";
 import { motion } from "framer-motion";
+import ChatWidget from "./ChatWidget";
 import {
   ArrowRight,
   Briefcase,
@@ -620,6 +620,7 @@ export default function PortfolioClient() {
           </motion.div>
         </section>
       </main>
+      <ChatWidget />
     </div>
   );
 }
